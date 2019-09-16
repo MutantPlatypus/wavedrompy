@@ -145,6 +145,7 @@ setup(
     extras_require={  # Optional
         # "dev": ["check-manifest"],
         "test": [
+            "pytest",
             "xmldiff",
             #Per release notes, Python 2 support dropped at version 2.0.0
             "cairosvg==1.0.22" if sys.version_info < (3, ) else "cairosvg",
